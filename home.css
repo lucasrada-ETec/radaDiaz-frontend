@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 242, 242);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeTitle {
+    color: rgb(202, 60, 25);
+    border: 2px solid black;
+    max-width: 200px;
+    margin: 16px;
+    padding: 16px;
+}
+
+.homeList {
+    margin-left: 30px;
+    display: flex;
+    list-style-type: none;
+    margin-right: 2rem;
+    column-gap: 10px;
+}
+
+li {
+    font-size: 22px;
+    border: 1px solid rgb(173, 84, 32);
+    padding: 5px;
+}
